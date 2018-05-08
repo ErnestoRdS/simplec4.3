@@ -20,6 +20,7 @@ int main()
   scanf("%f", &p2.x); 
   scanf("%f", &p2.y); 
 
-  printf(); 
+  printf("La suma de los puntos en X es: %.2f", p1.x + p2.x); 
+  printf("La suma de los puntos en Y es: %.2f", p1.y + p2.y); 
   return 0; 
 }
